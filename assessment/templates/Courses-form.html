@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Courses REST/UI</title>
+</head>
+
+<body>
+
+<h1>New/Update Course Form</h1>
+
+<form method="POST">
+    {% csrf_token %}
+    {{ form }}
+    <button type="submit">Save</button>
+</form>
+
+{% if Courses %}
+    <h1>TUNA SALAD</h1>
+{% else %}
+    <h1>NO TUNA SALAD 4</h1>
+{% endif %}
+
+</body>
+</html>

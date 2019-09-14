@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Courses REST/UI {{ course.Code }}</title>
+</head>
+
+<body>
+
+<h1>Delete Course Confirm Form</h1>
+
+<form method="POST">
+    {% csrf_token %}
+    <h2>Remove this course? <u>{{ courses.Description }}</u></h2>
+    <button type="submit">Confirm</button>
+</form>
+
+</body>
+</html>
