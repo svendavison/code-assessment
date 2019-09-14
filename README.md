@@ -1,25 +1,25 @@
 # code-assessment
+<br />
+Create an application that provides a simple Web UI or API that allows users to:<br /><br />
+CRUD* Courses w/<br />
+Description<br />
+Code<br />
+Professor<br />
+Capacity<br />
 
-Create an application that provides a simple Web UI or API that allows users to:
-CRUD* Courses w/
-Description
-Code
-Professor
-Capacity
-
-CRUD Students w/
-Name
-Student Id
-
- 
- ReST end points w/
- Assign student to course
- ../student/enroll/<course id>
- Remove a student from a course
- ../student/drop/<course id> 
- Fetch all students in a course
- ../course/students
- Fetch students
- ../student/all
- Fetch all courses
- ../course/all
+CRUD Students w/<br />
+Name<br />
+Student Id<br />
+<br />
+ <br />
+ ReST end points w/<br />
+ Assign student to course<br />
+ ../student/enroll/<course id><br />
+ Remove a student from a course<br />
+ ../student/drop/<course id> <br />
+ Fetch all students in a course<br />
+ ../course/students<br />
+ Fetch students<br />
+ ../student/all<br />
+ Fetch all courses<br />
+ ../course/all<br />
