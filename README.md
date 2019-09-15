@@ -51,7 +51,7 @@ I've come to find a couple things that I want to learn how to do. This is in no 
     {
         "url": "http://127.0.0.1:8000/student/10/",
         "id": 10,
-        "Name": "Sven Davison",
+        "Name": "Joe Username",
         "StudentId": 23,
         "Courses": [
             "http://127.0.0.1:8000/courses/6/",
