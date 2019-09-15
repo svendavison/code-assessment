@@ -60,3 +60,16 @@ I've come to find a couple things that I want to learn how to do. This is in no 
         ]
     }
 ```
+
+# Unit Testing & More
+* Unit Testing
+ * CRUD Student
+ * CRUD Course
+ * Add student to course
+ * Remove student from course
+* Data sanity checks
+ * Prevent student ID from being created twice.
+ * Prevent the same course name from being created more than once.
+ * Prevent registration if course size is X+1 of X
+ * etc etc...
+
