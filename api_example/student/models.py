@@ -10,7 +10,9 @@ class Course(models.Model):
     def __str__(self):
         return self.Description
     
-
+# i removed this class and all the referances to it but i left it here.
+# Django has a nifty models.ManyToManyField option that solved my issue
+# and thus i was able to remove this class!
 # class CourseRegistration(models.Model):
 #    Name = models.CharField(max_length=50)
 #    #StudentName = models.ForeignKey(Student, on_delete=models.CASCADE)
@@ -19,8 +21,7 @@ class Course(models.Model):
 #    def __str__(self):
 #        return self.Name
     
-
-# done but needs testing for 2.0
+    
 class Student(models.Model):
     Name = models.CharField(max_length=50)
     StudentId = models.IntegerField()

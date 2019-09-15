@@ -1,7 +1,9 @@
 from rest_framework import serializers
 from .models import Student, Course
+#Surplus line, view the comments in 'models.py' for more info
 #from .models import CourseRegistration
 
+# testing out the HyperlinkedMode version, which i liked more!
 #class StudentSerializer(serializers.ModelSerializer):
 class StudentSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
@@ -13,11 +15,8 @@ class CourseSerializer(serializers.HyperlinkedModelSerializer):
         model = Course
         fields = ('url', 'id', 'Description', 'Code','Professor','Capacity')
 
+#Surplus line, view the comments in 'models.py' for more info
 #class CourseRegistrationSerializer(serializers.HyperlinkedModelSerializer):
 #    class Meta:
 #        model = CourseRegistration
 #        fields = ('url', 'id', 'Name', 'CourseId')
-
-
-# i think i'm missing something... but i'm going to roll with it
-# and go from there.
