@@ -6,7 +6,7 @@ from rest_framework import routers
 router = routers.DefaultRouter()
 router.register('student', views.StudentView)
 router.register('courses', views.CourseView)
-router.register('registrations', views.CourseRegistrationView)
+#router.register('registrations', views.CourseRegistrationView)
 
 urlpatterns = [
     path('', include(router.urls))

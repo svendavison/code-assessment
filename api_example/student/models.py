@@ -10,20 +10,21 @@ class Course(models.Model):
     def __str__(self):
         return self.Description
     
-class CourseRegistration(models.Model):
-    Name = models.CharField(max_length=50)
-    #StudentName = models.ForeignKey(Student, on_delete=models.CASCADE)
-    CourseId = models.ForeignKey(Course, on_delete=models.CASCADE)
 
-    def __str__(self):
-        return self.Name
+# class CourseRegistration(models.Model):
+#    Name = models.CharField(max_length=50)
+#    #StudentName = models.ForeignKey(Student, on_delete=models.CASCADE)
+#    CourseId = models.ForeignKey(Course, on_delete=models.CASCADE)
+#
+#    def __str__(self):
+#        return self.Name
     
 
 # done but needs testing for 2.0
 class Student(models.Model):
     Name = models.CharField(max_length=50)
     StudentId = models.IntegerField()
-    registrations = models.ManyToManyField(CourseRegistration)
+    Courses = models.ManyToManyField(Course)
 
     class Meta:
         verbose_name = ("Student")
