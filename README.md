@@ -2,7 +2,17 @@
 
 This is a repo of a code assessment I had to do. It turns out, the Django Rest Framework is wonderful and makes things A LOT easier. I still need to create/modify the REST endpoints to be more specific which I hope to figure out by tomorrow.
 
+# Tools Used
+* Django
+* Django Rest Framework
+* Visual Studio Code (on a MacBookPro)
 
+# Pip Freeze report
+(venv1) svenMacBook:api_example svendavison$ pip freeze
+Django==2.2.5
+djangorestframework==3.10.3
+pytz==2019.2
+sqlparse==0.3.0
 
 # The Assessment Tasks
 * Create an application that provides a simple Web UI or API that allows users to:
