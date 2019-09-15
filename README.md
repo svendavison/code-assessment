@@ -10,16 +10,16 @@ Code Assessment for Stuff.
   * Professor
   * Capacity
 * CRUD Students w/
-** Name
-** Student Id
+  * Name
+  * Student Id
 * ReST end points w/
-*** Assign student to course
-*** ../student/enroll/<course id>
-** Remove a student from a course
-*** ../student/drop/<course id>
-** Fetch all students in a course
-***  ../course/students
-** Fetch students
-*** ../student/all
-** Fetch all courses
-*** ../course/all
+  * Assign student to course
+    * ../student/enroll/<course id>
+  * Remove a student from a course
+    * ../student/drop/<course id>
+  * Fetch all students in a course
+    *  ../course/students
+  * Fetch students
+    * ../student/all
+  * Fetch all courses
+    * ../course/all
