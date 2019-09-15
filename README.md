@@ -8,11 +8,11 @@ This is a repo of a code assessment I had to do. It turns out, the Django Rest F
 * Visual Studio Code (on a MacBookPro)
 
 # Pip Freeze report
-(venv1) svenMacBook:api_example svendavison$ pip freeze
-Django==2.2.5
-djangorestframework==3.10.3
-pytz==2019.2
-sqlparse==0.3.0
+* (venv1) svenMacBook:api_example svendavison$ pip freeze
+* Django==2.2.5
+* djangorestframework==3.10.3
+* pytz==2019.2
+* sqlparse==0.3.0
 
 # The Assessment Tasks
 * Create an application that provides a simple Web UI or API that allows users to:
