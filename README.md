@@ -5,10 +5,10 @@ Code Assessment for Stuff.
 # The Assessment Tasks
 * Create an application that provides a simple Web UI or API that allows users to:
 * CRUD* Courses w/
-** Description
-** Code
-** Professor
-** Capacity
+  * Description
+  * Code
+  * Professor
+  * Capacity
 * CRUD Students w/
 ** Name
 ** Student Id
