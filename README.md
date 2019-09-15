@@ -38,3 +38,25 @@ This is a repo of a code assessment I had to do. It turns out, the Django Rest F
 
 # Additional requirements for the assessment.
 The back-end should be implemented in Python and support the front end via ReST endpoints using Django or Flask (preferably). The data model shall be maintained in either (or some combination of) MariaDB/MySQL, sqlite, or MongoDB. However you see fit. I will test functionality with curl calls.
+
+
+# TODO
+I've come to find a couple things that I want to learn how to do. This is in no way a full/complete list.
+
+* Make instructors a lookup/foreign table
+    * Hand jamming the instructor names is not ideal
+* Change the display value of the student result to include/the display name.
+
+```JSON
+    {
+        "url": "http://127.0.0.1:8000/student/10/",
+        "id": 10,
+        "Name": "Sven Davison",
+        "StudentId": 23,
+        "Courses": [
+            "http://127.0.0.1:8000/courses/6/",
+            "http://127.0.0.1:8000/courses/8/",
+            "http://127.0.0.1:8000/courses/9/"
+        ]
+    }
+```
